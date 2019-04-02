@@ -1,0 +1,19 @@
+[alias]
+	b  = branch
+	ca = commit -a
+	cm = commit -m
+	amend = commit --amend
+	co = checkout
+	cob = checkout -b
+	cp = cherry-pick
+	lg = log --decorate
+	glog = log --decorate --abbrev-commit --pretty=oneline --graph
+	pop = stash pop
+	st = status
+[core]
+	editor = emacs
+	color = auto
+	color = true
+[user]
+	name = Riley Chang
+	email = me@rileyschang.com
